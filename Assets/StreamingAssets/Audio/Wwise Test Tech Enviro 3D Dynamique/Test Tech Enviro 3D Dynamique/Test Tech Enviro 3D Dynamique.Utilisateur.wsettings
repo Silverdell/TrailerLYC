@@ -39,7 +39,7 @@
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="NTu/ugbwzCg="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKDU7v7o="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="v0WVHhBhP0GQFM+oyWFalA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="DZ4WratSvUmL6aTTqWZFmdU+srl6E3NFruwEUXycLSVUA2YhQ4rDTZfd7xVbJ72T"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
