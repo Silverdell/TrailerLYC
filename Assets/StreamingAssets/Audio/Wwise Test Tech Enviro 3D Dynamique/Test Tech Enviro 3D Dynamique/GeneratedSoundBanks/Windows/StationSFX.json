@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
+   "SourceFilesRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "973505180",
+    "GUID": "{21660354-8A43-4DC3-97DD-EF155B27BD93}",
+    "Language": "SFX",
+    "Hash": "2820044997",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\StationSFX",
+    "ShortName": "StationSFX",
+    "Path": "StationSFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1404805401",
+      "Name": "DoorOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\StationSFX\\DoorOpen",
+      "GUID": "{6E5E46B8-09E6-4026-8137-9B1D2C46031D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.436836",
+      "DurationMax": "0.490332",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "646043830",
+        "Language": "SFX",
+        "ShortName": "drawbridge_control-converted.wav",
+        "Path": "SFX\\drawbridge_control-converted_FAE3D76A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2953849999",
+      "Name": "Play_Radio",
+      "ObjectPath": "\\Events\\Default Work Unit\\StationSFX\\Play_Radio",
+      "GUID": "{B7CF8AB1-CC98-44DA-8A61-96A89890CBD7}",
+      "MaxAttenuation": "5.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "344474549",
+        "Language": "SFX",
+        "ShortName": "Teleporter_loop.wav",
+        "Path": "SFX\\Teleporter_loop_12B2B290.wem"
+       }
+      ]
+     },
+     {
+      "Id": "151474297",
+      "Name": "Stop_Radio",
+      "ObjectPath": "\\Events\\Default Work Unit\\StationSFX\\Stop_Radio",
+      "GUID": "{EE3764A4-3971-488A-BF47-168585D0DAC7}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

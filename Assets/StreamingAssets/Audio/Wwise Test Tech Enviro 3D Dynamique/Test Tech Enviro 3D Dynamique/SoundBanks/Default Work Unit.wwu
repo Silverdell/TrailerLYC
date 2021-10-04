@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{622B2E6C-2168-40DD-B6B9-F0E993825C36}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{622B2E6C-2168-40DD-B6B9-F0E993825C36}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MusicStation" ID="{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MusicGlobal" ID="{62BA60EB-1457-47E4-8A29-32CB848B2C98}" WorkUnitID="{2B3471BE-417A-488F-BD98-84DF7F5122D3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="StationSFX" ID="{21660354-8A43-4DC3-97DD-EF155B27BD93}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StationSFX" ID="{827272AA-29F8-43F9-8833-A520FC519107}" WorkUnitID="{2B3471BE-417A-488F-BD98-84DF7F5122D3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="OutsideSFX" ID="{B9B23ED5-137A-4573-AEEC-04517C9C2D25}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Outside" ID="{CEB58CB8-306A-4389-B1D4-E260C23FFEF0}" WorkUnitID="{2B3471BE-417A-488F-BD98-84DF7F5122D3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

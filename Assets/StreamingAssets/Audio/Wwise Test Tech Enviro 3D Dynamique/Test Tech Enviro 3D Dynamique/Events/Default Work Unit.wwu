@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B3471BE-417A-488F-BD98-84DF7F5122D3}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2B3471BE-417A-488F-BD98-84DF7F5122D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MusicGlobal" ID="{62BA60EB-1457-47E4-8A29-32CB848B2C98}" ShortID="27957196">
+					<ChildrenList>
+						<Event Name="Stop_Music_Station" ID="{7B8CA7EA-1BAF-4167-A6BB-5AC7F7B1E7E5}">
+							<ChildrenList>
+								<Action Name="" ID="{613A4481-A367-4252-A0B0-04F4BE1B8234}" ShortID="718928322">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Station" ID="{D6938581-3CBA-4C7C-83B2-D615E6AE6969}" WorkUnitID="{FC387449-4E32-48C5-AD26-68AD35AE915A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Station" ID="{20DB8AE7-AE54-4FB4-BF11-DBA9CFDEB5F1}">
+							<ChildrenList>
+								<Action Name="" ID="{BC6928FC-90C5-4417-98B3-02F9A3C3B3B5}" ShortID="233847297">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Station" ID="{D6938581-3CBA-4C7C-83B2-D615E6AE6969}" WorkUnitID="{FC387449-4E32-48C5-AD26-68AD35AE915A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="StationSFX" ID="{827272AA-29F8-43F9-8833-A520FC519107}" ShortID="1036847855">
+					<ChildrenList>
+						<Event Name="DoorOpen" ID="{6E5E46B8-09E6-4026-8137-9B1D2C46031D}">
+							<ChildrenList>
+								<Action Name="" ID="{30FB7DA0-B8C9-4A60-8CE8-087E6D55EDDD}" ShortID="452398707">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door" ID="{1D13C8C4-AC94-49F2-A060-30DC7BD88EB5}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Radio" ID="{B7CF8AB1-CC98-44DA-8A61-96A89890CBD7}">
+							<ChildrenList>
+								<Action Name="" ID="{E0829D9E-5F29-4618-B7DF-2D12B48993A8}" ShortID="219815381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio" ID="{9CF0FF2D-56B1-405D-BFA5-DF6B7CFED82E}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Radio" ID="{EE3764A4-3971-488A-BF47-168585D0DAC7}">
+							<ChildrenList>
+								<Action Name="" ID="{8A983C19-C542-4B71-B588-5F27400A0A47}" ShortID="99651234">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio" ID="{9CF0FF2D-56B1-405D-BFA5-DF6B7CFED82E}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{D1DE55A2-0351-4F74-8D6F-B9BE7F3F8B16}" ShortID="46221635">
+					<ChildrenList>
+						<Folder Name="Outside" ID="{CEB58CB8-306A-4389-B1D4-E260C23FFEF0}" ShortID="342310866">
+							<ChildrenList>
+								<Event Name="Stop_Ocean" ID="{8FB92C4E-8CBB-4452-AAD1-9DDB5819C3C3}">
+									<ChildrenList>
+										<Action Name="" ID="{9886CCB9-3086-48AE-859C-25C3B887400F}" ShortID="791772737">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ocean" ID="{94FFE5E2-E051-4B50-B494-006370A5003F}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ocean" ID="{2D417B56-D7C5-4038-BF02-50931F708ED1}">
+									<ChildrenList>
+										<Action Name="" ID="{D9EBA645-5B17-4409-B878-2DDEE1A12E3A}" ShortID="950043353">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ocean" ID="{94FFE5E2-E051-4B50-B494-006370A5003F}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Seagulls" ID="{4CC044A8-1910-4F07-BBA1-F0D903748AF6}">
+									<ChildrenList>
+										<Action Name="" ID="{E324F7EB-EA77-4F34-B4C8-E4551911BE89}" ShortID="296234575">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Seagulls" ID="{9F76B64D-D45D-41AF-A1EB-2F2C60FD5608}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Seagulls" ID="{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}">
+									<ChildrenList>
+										<Action Name="" ID="{CF14CCA1-5D95-492E-BD82-AA86743288C6}" ShortID="1032121598">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Seagulls" ID="{9F76B64D-D45D-41AF-A1EB-2F2C60FD5608}" WorkUnitID="{3B94BDE7-8E35-424F-91AE-D46903F88995}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B94BDE7-8E35-424F-91AE-D46903F88995}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3B94BDE7-8E35-424F-91AE-D46903F88995}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Station" ID="{3FDB1E4A-F1B7-4F5E-9A9A-71493A1E6E2F}" ShortID="1022175811">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Door" ID="{1D13C8C4-AC94-49F2-A060-30DC7BD88EB5}" ShortID="286801908">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="StationSFX" ID="{1665E139-5BFB-4F7D-B19A-39A7E2DEB21F}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="drawbridge_control-converted" ID="{04F77F28-0BB1-4CE6-8C9A-0B48A2710367}" ShortID="571590949">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C27D4682-811A-4A23-A0B3-B1C007018A60}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drawbridge_control-converted" ID="{27B22741-DC46-451C-8364-842EB0E3367E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0405174317980377"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>drawbridge_control-converted.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="646043830"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="drawbridge_control-converted" ID="{27B22741-DC46-451C-8364-842EB0E3367E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{5E7B0BEC-902C-4892-9B5D-8BA8E91BC519}" ShortID="697810965">
+					<ChildrenList>
+						<Folder Name="Outside" ID="{5CDF0078-0A39-43D0-9957-473C39D3CAA4}" ShortID="505791295">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Seagulls" ID="{9F76B64D-D45D-41AF-A1EB-2F2C60FD5608}" ShortID="297515494">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{289A2F38-D3CA-4298-9CF5-F5D884DC5997}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Seagulls" ID="{F78A45A7-3909-4A08-86E3-1E2FEC3275D1}" WorkUnitID="{4AF75982-9B20-4EB0-B78B-66E559DABC1A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="OutsideSFX" ID="{73B06A85-CAD2-4915-99FF-CE82BCA2CE02}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="gulls_01-converted" ID="{5003B802-9A6F-4665-869F-F217928225CE}" ShortID="516296867">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="gulls_01-converted" ID="{2709E67B-553C-4C70-BF93-A7D6CEA85C27}">
+													<Language>SFX</Language>
+													<AudioFile>gulls_01-converted.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="520855207"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="gulls_01-converted" ID="{2709E67B-553C-4C70-BF93-A7D6CEA85C27}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="gulls_02-converted" ID="{9C424CD1-275A-42F9-9F76-9A273CB2170A}" ShortID="734946078">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="gulls_02-converted" ID="{D8FF8FF2-8ABF-473E-B5FD-234C04B06C18}">
+													<Language>SFX</Language>
+													<AudioFile>gulls_02-converted.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="98982520"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="gulls_02-converted" ID="{D8FF8FF2-8ABF-473E-B5FD-234C04B06C18}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Ocean" ID="{94FFE5E2-E051-4B50-B494-006370A5003F}" ShortID="965243268">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E68674ED-6720-4337-ACC9-18DC2B545F74}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ocean" ID="{C3AED401-E53E-418E-B896-1E09AECCD856}" WorkUnitID="{4AF75982-9B20-4EB0-B78B-66E559DABC1A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="OutsideSFX" ID="{73B06A85-CAD2-4915-99FF-CE82BCA2CE02}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ocean_short1-converted" ID="{B293EE8C-4361-49D8-BD4C-C1BC896E670E}" ShortID="323813061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ocean_short1-converted" ID="{B9E78022-E247-472A-827D-01841036F028}">
+													<Language>SFX</Language>
+													<AudioFile>ocean_short1-converted.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029214844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ocean_short1-converted" ID="{B9E78022-E247-472A-827D-01841036F028}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ocean_short2-converted" ID="{D852BA9B-D0C9-4233-ADE8-17E1DD0F9CEB}" ShortID="328289852">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ocean_short2-converted" ID="{26ADBEE8-C0D4-4B27-91D2-CA7564A25987}">
+													<Language>SFX</Language>
+													<AudioFile>ocean_short2-converted.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="377038210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ocean_short2-converted" ID="{26ADBEE8-C0D4-4B27-91D2-CA7564A25987}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ocean_short3-converted" ID="{8B13463A-394F-47D1-B38A-3B8185D663F9}" ShortID="143420680">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ocean_short3-converted" ID="{1C60E535-F821-49E8-B6C2-7AB4B09E93DA}">
+													<Language>SFX</Language>
+													<AudioFile>ocean_short3-converted.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="314771986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ocean_short3-converted" ID="{1C60E535-F821-49E8-B6C2-7AB4B09E93DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Station" ID="{480A21C8-DB02-4745-8FE5-F3C31B6901B5}" ShortID="822105269">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Radio" ID="{9CF0FF2D-56B1-405D-BFA5-DF6B7CFED82E}" ShortID="881135723">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Radio" ID="{A15475FE-7A51-4BBD-B936-7EDF0B04CD16}" WorkUnitID="{4AF75982-9B20-4EB0-B78B-66E559DABC1A}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="StationSFX" ID="{1665E139-5BFB-4F7D-B19A-39A7E2DEB21F}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Teleporter_loop" ID="{3EE3920C-8AA7-4CA7-9860-E1491BE6FB3B}" ShortID="178409894">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Teleporter_loop" ID="{69224A3C-8E8B-4A06-943E-93BEF48959ED}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.124126592683929"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.116368680641184"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Teleporter_loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="344474549"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Teleporter_loop" ID="{69224A3C-8E8B-4A06-943E-93BEF48959ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

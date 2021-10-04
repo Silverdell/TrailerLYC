@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e902b6b94d71cf4eaef240d7233c5d0, type: 3}
+  m_Name: 4CC044A8-1910-4F07-BBA1-F0D903748AF6
+  m_EditorClassIdentifier: 
+  objectName: Stop_Seagulls
+  id: 3590310348
+  guid: 4CC044A8-1910-4F07-BBA1-F0D903748AF6

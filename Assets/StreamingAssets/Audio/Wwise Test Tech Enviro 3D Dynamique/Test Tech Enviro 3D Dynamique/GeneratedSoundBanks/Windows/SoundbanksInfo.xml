@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
+		<SourceFilesRoot>D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="914012847" GUID="{B9B23ED5-137A-4573-AEEC-04517C9C2D25}" Language="SFX" Hash="3792432652">
+			<ObjectPath>\SoundBanks\Default Work Unit\OutsideSFX</ObjectPath>
+			<ShortName>OutsideSFX</ShortName>
+			<Path>OutsideSFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1724638476" Name="Play_Ocean" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Play_Ocean" GUID="{2D417B56-D7C5-4038-BF02-50931F708ED1}" MaxAttenuation="18.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="314771986" Language="SFX">
+							<ShortName>ocean_short3-converted.wav</ShortName>
+							<Path>SFX\ocean_short3-converted_10C4C929.wem</Path>
+						</File>
+						<File Id="377038210" Language="SFX">
+							<ShortName>ocean_short2-converted.wav</ShortName>
+							<Path>SFX\ocean_short2-converted_10C4C929.wem</Path>
+						</File>
+						<File Id="1029214844" Language="SFX">
+							<ShortName>ocean_short1-converted.wav</ShortName>
+							<Path>SFX\ocean_short1-converted_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4281176146" Name="Play_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Play_Seagulls" GUID="{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}" MaxAttenuation="15.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="98982520" Language="SFX">
+							<ShortName>gulls_02-converted.wav</ShortName>
+							<Path>SFX\gulls_02-converted_10C4C929.wem</Path>
+						</File>
+						<File Id="520855207" Language="SFX">
+							<ShortName>gulls_01-converted.wav</ShortName>
+							<Path>SFX\gulls_01-converted_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4196961906" Name="Stop_Ocean" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Stop_Ocean" GUID="{8FB92C4E-8CBB-4452-AAD1-9DDB5819C3C3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3590310348" Name="Stop_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Stop_Seagulls" GUID="{4CC044A8-1910-4F07-BBA1-F0D903748AF6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="973505180" GUID="{21660354-8A43-4DC3-97DD-EF155B27BD93}" Language="SFX" Hash="2820044997">
+			<ObjectPath>\SoundBanks\Default Work Unit\StationSFX</ObjectPath>
+			<ShortName>StationSFX</ShortName>
+			<Path>StationSFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\StationSFX\DoorOpen" GUID="{6E5E46B8-09E6-4026-8137-9B1D2C46031D}" DurationType="OneShot" DurationMin="0.436836" DurationMax="0.490332">
+					<IncludedMemoryFiles>
+						<File Id="646043830" Language="SFX">
+							<ShortName>drawbridge_control-converted.wav</ShortName>
+							<Path>SFX\drawbridge_control-converted_FAE3D76A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2953849999" Name="Play_Radio" ObjectPath="\Events\Default Work Unit\StationSFX\Play_Radio" GUID="{B7CF8AB1-CC98-44DA-8A61-96A89890CBD7}" MaxAttenuation="5.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="344474549" Language="SFX">
+							<ShortName>Teleporter_loop.wav</ShortName>
+							<Path>SFX\Teleporter_loop_12B2B290.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="151474297" Name="Stop_Radio" ObjectPath="\Events\Default Work Unit\StationSFX\Stop_Radio" GUID="{EE3764A4-3971-488A-BF47-168585D0DAC7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="166608584">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2959414378" GUID="{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}" Language="SFX" Hash="3808500400">
+			<ObjectPath>\SoundBanks\Default Work Unit\MusicStation</ObjectPath>
+			<ShortName>MusicStation</ShortName>
+			<Path>MusicStation.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2910509950" Name="Play_Music_Station" ObjectPath="\Events\Default Work Unit\MusicGlobal\Play_Music_Station" GUID="{20DB8AE7-AE54-4FB4-BF11-DBA9CFDEB5F1}" MaxAttenuation="18.000000" DurationType="OneShot" DurationMin="514.000000" DurationMax="514.000000">
+					<IncludedMemoryFiles>
+						<File Id="118632472" Language="SFX">
+							<ShortName>MarketThemeLOOP_RosieDoppels.wav</ShortName>
+							<Path>SFX\MarketThemeLOOP_RosieDoppels_D79FB2B7.wem</Path>
+						</File>
+						<File Id="723714985" Language="SFX">
+							<ShortName>HomeLOOP._RosieDoppels.wav</ShortName>
+							<Path>SFX\HomeLOOP._RosieDoppels_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="5642672" Name="Stop_Music_Station" ObjectPath="\Events\Default Work Unit\MusicGlobal\Stop_Music_Station" GUID="{7B8CA7EA-1BAF-4167-A6BB-5AC7F7B1E7E5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

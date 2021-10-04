@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
+   "SourceFilesRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\GitKraken\\Test-Tech-Enviro-3D-Dynamique\\Test Tech Enviro 3D Dynamique\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2959414378",
+    "GUID": "{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}",
+    "Language": "SFX",
+    "Hash": "3808500400",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicStation",
+    "ShortName": "MusicStation",
+    "Path": "MusicStation.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2910509950",
+      "Name": "Play_Music_Station",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicGlobal\\Play_Music_Station",
+      "GUID": "{20DB8AE7-AE54-4FB4-BF11-DBA9CFDEB5F1}",
+      "MaxAttenuation": "18.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "514.000000",
+      "DurationMax": "514.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118632472",
+        "Language": "SFX",
+        "ShortName": "MarketThemeLOOP_RosieDoppels.wav",
+        "Path": "SFX\\MarketThemeLOOP_RosieDoppels_D79FB2B7.wem"
+       },
+       {
+        "Id": "723714985",
+        "Language": "SFX",
+        "ShortName": "HomeLOOP._RosieDoppels.wav",
+        "Path": "SFX\\HomeLOOP._RosieDoppels_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "5642672",
+      "Name": "Stop_Music_Station",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicGlobal\\Stop_Music_Station",
+      "GUID": "{7B8CA7EA-1BAF-4167-A6BB-5AC7F7B1E7E5}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

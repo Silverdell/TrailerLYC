@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	5642672	Stop_Music_Station			\Default Work Unit\MusicGlobal\Stop_Music_Station	
+	2910509950	Play_Music_Station			\Default Work Unit\MusicGlobal\Play_Music_Station	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	118632472	MarketThemeLOOP_RosieDoppels	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\MarketThemeLOOP_RosieDoppels_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Station\MarketThemeLOOP_RosieDoppels\MarketThemeLOOP_RosieDoppels		59904144
+	723714985	HomeLOOP__RosieDoppels	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\HomeLOOP._RosieDoppels_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Station\HomeLOOP__RosieDoppels\HomeLOOP__RosieDoppels		39936144
+

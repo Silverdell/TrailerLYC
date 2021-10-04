@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	151474297	Stop_Radio			\Default Work Unit\StationSFX\Stop_Radio	
+	1404805401	DoorOpen			\Default Work Unit\StationSFX\DoorOpen	
+	2953849999	Play_Radio			\Default Work Unit\StationSFX\Play_Radio	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	344474549	Teleporter_loop	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\Teleporter_loop_12B2B290.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Station\Radio\Teleporter_loop		1208144
+	646043830	drawbridge_control-converted	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\drawbridge_control-converted_FAE3D76A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Station\Door\drawbridge_control-converted		81704
+

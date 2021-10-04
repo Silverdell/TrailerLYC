@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{24C672FE-A612-42E2-97D7-04B612283CC9}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="StationSFX" ID="{1665E139-5BFB-4F7D-B19A-39A7E2DEB21F}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="OutsideSFX" ID="{73B06A85-CAD2-4915-99FF-CE82BCA2CE02}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="MusicGlobal" ID="{4BD46DB7-AE6C-4886-8FB8-A5A4F7E7049D}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="VoiceActor" ID="{B8A0B601-A1DE-4978-B251-81FAC0A77A3C}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

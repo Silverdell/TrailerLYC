@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3B1F741-A32A-4636-A3DE-CFD05050AE89}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="VoiceActor" ID="{F3B1F741-A32A-4636-A3DE-CFD05050AE89}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="TestDiscussion" ID="{919C0521-3737-4A84-855B-17002DBC63D4}" ShortID="830007870">
+					<ChildrenList>
+						<RandomSequenceContainer Name="TestDiscussion" ID="{9C7EE912-1BF1-4C13-8C2A-F94523CF05AD}" ShortID="360005419">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAZ024" ID="{D2BCB1E4-D628-4665-99D3-FE0840DB77FF}" ShortID="970363595">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAZ024" ID="{B35F93AA-628B-49EC-AEF4-D1D87D47AD49}">
+											<Language>English(US)</Language>
+											<AudioFile>BAZ024.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="126312495"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAZ024" ID="{B35F93AA-628B-49EC-AEF4-D1D87D47AD49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAZ023" ID="{0BF0EDE4-C978-470C-8DCB-3E5AB6B724C0}" ShortID="159848181">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAZ023" ID="{D6E21806-A8F4-4182-830B-9A72989A883F}">
+											<Language>English(US)</Language>
+											<AudioFile>BAZ023.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1006073883"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAZ023" ID="{D6E21806-A8F4-4182-830B-9A72989A883F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TEL003" ID="{E733A22B-B719-4ED7-9046-E9850883A68B}" ShortID="523947127">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TEL003" ID="{88F216B3-8D76-444B-9521-C48B6B083D73}">
+											<Language>English(US)</Language>
+											<AudioFile>TEL003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="738324200"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="TEL003" ID="{88F216B3-8D76-444B-9521-C48B6B083D73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TEL005" ID="{2FCB3400-8B5C-4052-9428-5C23529BFC4A}" ShortID="646170203">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TEL005" ID="{15794E8C-97FF-4C7B-9C86-032A54D4580E}">
+											<Language>English(US)</Language>
+											<AudioFile>TEL005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476925308"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="TEL005" ID="{15794E8C-97FF-4C7B-9C86-032A54D4580E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TIM021" ID="{CA9214BD-79D4-402B-AFCC-1535C368AF9B}" ShortID="1050866877">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TIM021" ID="{3FDE562B-7FA6-42A5-80ED-5A8BFA061CCA}">
+											<Language>English(US)</Language>
+											<AudioFile>TIM021.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125040845"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="TIM021" ID="{3FDE562B-7FA6-42A5-80ED-5A8BFA061CCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TIM024" ID="{7C145139-A522-411F-91EB-AC9C576A8C82}" ShortID="407352595">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TIM024" ID="{594FB304-D2B3-4FBB-98E6-D1E6451AF02A}">
+											<Language>English(US)</Language>
+											<AudioFile>TIM024.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337195683"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="TIM024" ID="{594FB304-D2B3-4FBB-98E6-D1E6451AF02A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TEL006" ID="{1B3DC576-DF86-42F6-9D71-875030B52D93}" ShortID="541147419">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TEL006" ID="{033DA094-71E3-4E14-9930-306754313161}">
+											<Language>English(US)</Language>
+											<AudioFile>TEL006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="885140276"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="TEL006" ID="{033DA094-71E3-4E14-9930-306754313161}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="TIM021" ID="{CA9214BD-79D4-402B-AFCC-1535C368AF9B}"/>
+								<ItemRef Name="TEL003" ID="{E733A22B-B719-4ED7-9046-E9850883A68B}"/>
+								<ItemRef Name="BAZ023" ID="{0BF0EDE4-C978-470C-8DCB-3E5AB6B724C0}"/>
+								<ItemRef Name="TEL005" ID="{2FCB3400-8B5C-4052-9428-5C23529BFC4A}"/>
+								<ItemRef Name="BAZ024" ID="{D2BCB1E4-D628-4665-99D3-FE0840DB77FF}"/>
+								<ItemRef Name="TIM024" ID="{7C145139-A522-411F-91EB-AC9C576A8C82}"/>
+								<ItemRef Name="TEL006" ID="{1B3DC576-DF86-42F6-9D71-875030B52D93}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

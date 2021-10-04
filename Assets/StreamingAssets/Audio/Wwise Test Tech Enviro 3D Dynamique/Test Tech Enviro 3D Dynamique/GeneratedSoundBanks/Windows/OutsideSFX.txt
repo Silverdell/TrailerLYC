@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1724638476	Play_Ocean			\Default Work Unit\Ambient\Outside\Play_Ocean	
+	3590310348	Stop_Seagulls			\Default Work Unit\Ambient\Outside\Stop_Seagulls	
+	4196961906	Stop_Ocean			\Default Work Unit\Ambient\Outside\Stop_Ocean	
+	4281176146	Play_Seagulls			\Default Work Unit\Ambient\Outside\Play_Seagulls	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	98982520	gulls_02-converted	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\gulls_02-converted_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Outside\Seagulls\gulls_02-converted		829936
+	314771986	ocean_short3-converted	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\ocean_short3-converted_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Outside\Ocean\ocean_short3-converted		1106560
+	377038210	ocean_short2-converted	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\ocean_short2-converted_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Outside\Ocean\ocean_short2-converted		895024
+	520855207	gulls_01-converted	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\gulls_01-converted_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Outside\Seagulls\gulls_01-converted		1025200
+	1029214844	ocean_short1-converted	D:\GitKraken\Test-Tech-Enviro-3D-Dynamique\Test Tech Enviro 3D Dynamique\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\SFX\ocean_short1-converted_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Outside\Ocean\ocean_short1-converted		951976
+
