@@ -55,6 +55,7 @@ namespace AK
         static const AkUniqueID MUSICGLOBAL = 1499314831U;
         static const AkUniqueID OUTSIDESFX = 914012847U;
         static const AkUniqueID STATIONSFX = 973505180U;
+        static const AkUniqueID VOICEACTOR = 1204742824U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

@@ -68,32 +68,6 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<Sound Name="BEN001" ID="{6EDE3F1E-CA26-4811-A906-5B43F2F5320E}" ShortID="376261108">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BEN001" ID="{ECBBD84C-281A-4970-AE59-04ACED8F7CC9}">
-									<Language>English(US)</Language>
-									<AudioFile>BEN001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="4526841"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BEN001" ID="{ECBBD84C-281A-4970-AE59-04ACED8F7CC9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambient" ID="{5E7B0BEC-902C-4892-9B5D-8BA8E91BC519}" ShortID="697810965">
