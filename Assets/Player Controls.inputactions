@@ -192,6 +192,52 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Exploration WayPoints",
+            "id": "3e986841-4f03-4c8b-a5cb-0a439b47934b",
+            "actions": [
+                {
+                    "name": "SetNextTarget",
+                    "type": "Button",
+                    "id": "71786d30-e98d-41f8-b2f4-a8590579bb86",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SetLastTarget",
+                    "type": "Button",
+                    "id": "a4d44e3b-1305-4eda-af56-0e81af9284cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "adfa1712-3118-4325-b943-71617c8198b7",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "SetNextTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "894b0d0b-d518-44f9-ba6c-681b1db3a034",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "SetLastTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
