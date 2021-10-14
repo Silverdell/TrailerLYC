@@ -65,10 +65,18 @@
 												<MediaID ID="1006073883"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="BAZ023" ID="{239F4BDA-57E6-4BD1-A2A8-97238088AAD0}">
+											<Language>French</Language>
+											<AudioFile>BAZ023.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="936184195"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="BAZ023" ID="{D6E21806-A8F4-4182-830B-9A72989A883F}" Platform="Linked"/>
+										<ActiveSource Name="BAZ023" ID="{239F4BDA-57E6-4BD1-A2A8-97238088AAD0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="TEL003" ID="{E733A22B-B719-4ED7-9046-E9850883A68B}" ShortID="523947127">
