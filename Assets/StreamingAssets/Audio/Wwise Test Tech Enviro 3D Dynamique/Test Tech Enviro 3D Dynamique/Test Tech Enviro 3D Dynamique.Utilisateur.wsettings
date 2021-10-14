@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{CE4886ED-3A86-4EDB-86A4-E08BF38C4DA7}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Sound Design\Bande son récupéré de jeux vidéos\Giants citizen kabuto\StreamFrench\BAZ\Baz French\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Sound Design\Bande son récupéré de jeux vidéos\Giants citizen kabuto\StreamFrench\BAZ\French version Test Wwise\"/>
 				<Property Name="Event Action List\{20DB8AE7-AE54-4FB4-BF11-DBA9CFDEB5F1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2D3418C7-0EDB-40CE-A486-5F405F1722EB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2D417B56-D7C5-4038-BF02-50931F708ED1}\x64_Expand States" Type="string" Value=""/>
@@ -36,7 +36,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
-				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
+				<Property Name="General\LatestLanguage" Type="int32" Value="-1161872587"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKDU7v7o="/>
@@ -81,8 +81,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="uVi9/vy12Eq6R8MEWZ+QHw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="Lf/wnLFWXUC/pd9rfP7YLk22dp9d1K9BoesvLGD9VgjnvZQ7NY5PQpGu1GkD+ImVeADfXDkK0EOZV0c8OdPKpEH3sfMqozZGo97P0FBQronIIQpIAttFR4/l88MbaQG17At7XiyQkkibXYuo6RvFGcTIEx2UrPJJoGAw3HvYjrXi5f+UUeBQS7SUAGNwpQA/Eul+nPEbE0yMKvlFI88FrUoe2z+38V5PmppxSToebi8="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="Lf/wnLFWXUC/pd9rfP7YLk22dp9d1K9BoesvLGD9VgjnvZQ7NY5PQpGu1GkD+ImVeADfXDkK0EOZV0c8OdPKpEH3sfMqozZGo97P0FBQronIIQpIAttFR4/l88MbaQG17At7XiyQkkibXYuo6RvFGcTIEx2UrPJJoGAw3HvYjrUhBZyRNzeESoVbFwAtvGPU4uX/lFHgUEu0lABjcKUAPxLpfpzxGxNMjCr5RSPPBa1KHts/t/FeT5qacUk6Hm4v"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="uIy1zmowiUOx1OJgwj/+8KpycoL4KflDiDOlIPxRkQfrYLpiVxTkR4opMsuEiyyYvnE0K3pBj0i9mITff1Ei06JV3tFRA3RPjW+5vn8/ixY="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
