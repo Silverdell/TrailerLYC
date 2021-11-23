@@ -9,53 +9,72 @@
 							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
 						</Reference>
 					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="Default_Motion_Device" ID="{24C672FE-A612-42E2-97D7-04B612283CC9}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="StationSFX" ID="{1665E139-5BFB-4F7D-B19A-39A7E2DEB21F}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="OutsideSFX" ID="{73B06A85-CAD2-4915-99FF-CE82BCA2CE02}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="MusicGlobal" ID="{4BD46DB7-AE6C-4886-8FB8-A5A4F7E7049D}">
-					<PropertyList>
-						<Property Name="BusVolume" Type="Real64">
-							<ValueList>
-								<Value>-6</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="VoiceActor" ID="{B8A0B601-A1DE-4978-B251-81FAC0A77A3C}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{134BB94E-3003-4FB6-8FF3-AA77FB98BCA2}" WorkUnitID="{9724EAC3-8B07-4C4A-A059-9BD6EBBC7CE1}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{91ECE810-B675-4B73-82D3-648FB485A7CA}">
+							<ChildrenList>
+								<Bus Name="Music_Diegetic" ID="{844CAF7F-0D3F-4605-BE14-283788CDB811}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Music_Extra_Diegetic" ID="{A10E2197-4609-4D25-859B-152E532F6E84}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Ambiances" ID="{7213D578-D217-4FE3-9CAF-4F692F97E50B}">
+							<ChildrenList>
+								<Bus Name="Amb_Dyn" ID="{D181C203-9A6F-4B84-8ABA-1A0700BC2E7E}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>12546</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Amb_Stat" ID="{4C024FBB-78AC-4DF2-9D3E-01BEE21C14AA}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>12546</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{71BA20E9-8896-4524-98CE-E676D5660D73}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Foley" ID="{43D515B7-27F4-423D-BF65-8034CACB49FC}">
+							<ChildrenList>
+								<Bus Name="Cloth" ID="{0BBF410D-20D6-4346-8886-2C81C8314375}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Footsteps" ID="{2858A986-6448-492B-998E-81222245F416}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Reverbs" ID="{EC01A9CA-63D4-4D82-B8F2-66222F1AA496}">
+							<ChildrenList>
+								<AuxBus Name="Reverb_Exterieur" ID="{F0943908-518E-4AC4-AB23-C35C9E94972B}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Reverb_Salle_de_Controle" ID="{7F6613D4-E4CD-40CF-8901-D2FF15E397FC}">
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Voix" ID="{895AB4CA-CFFD-49D8-8C25-827E566429AB}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
