@@ -49,7 +49,7 @@
 						<Bus Name="SFX" ID="{71BA20E9-8896-4524-98CE-E676D5660D73}">
 							<ObjectLists/>
 						</Bus>
-						<Bus Name="Foley" ID="{43D515B7-27F4-423D-BF65-8034CACB49FC}">
+						<Bus Name="Chara" ID="{43D515B7-27F4-423D-BF65-8034CACB49FC}">
 							<ChildrenList>
 								<Bus Name="Cloth" ID="{0BBF410D-20D6-4346-8886-2C81C8314375}">
 									<ObjectLists/>
@@ -71,7 +71,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
-						<Bus Name="Voix" ID="{895AB4CA-CFFD-49D8-8C25-827E566429AB}">
+						<Bus Name="Voice" ID="{895AB4CA-CFFD-49D8-8C25-827E566429AB}">
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>

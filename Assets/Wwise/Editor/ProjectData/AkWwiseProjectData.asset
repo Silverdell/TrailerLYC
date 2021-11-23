@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: b958bdfefcb5d84aba47c304599f901f
     GuidInternal: 
-    m_lastTime: -8585639253341179195
+    m_lastTime: -8585639224232837285
     List:
     - name: Amb_Dyn
       guid: 03c281d16f9a844b8aba1a0700bc2e7e
@@ -362,6 +362,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 78d5137217d2e34f9caf4f692f97e50b
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambiances
+    - name: Chara
+      guid: b715d543f4273d42bf658034cacb49fc
+      id: 434268486
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b958bdfefcb5d84aba47c304599f901f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Chara
+        ObjectType: 2
+        guid: b715d543f4273d42bf658034cacb49fc
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Chara
     - name: Cloth
       guid: 0d41bf0bd620464388862c81c8314375
       id: 1367384683
@@ -375,30 +392,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Foley
+      - ElementName: Chara
         ObjectType: 2
         guid: b715d543f4273d42bf658034cacb49fc
       - ElementName: Cloth
         ObjectType: 2
         guid: 0d41bf0bd620464388862c81c8314375
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Foley\Cloth
-    - name: Foley
-      guid: b715d543f4273d42bf658034cacb49fc
-      id: 247557814
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b958bdfefcb5d84aba47c304599f901f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Foley
-        ObjectType: 2
-        guid: b715d543f4273d42bf658034cacb49fc
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Foley
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Chara\Cloth
     - name: Footsteps
       guid: 86a9582848642b49998e81222245f416
       id: 2385628198
@@ -412,13 +412,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Foley
+      - ElementName: Chara
         ObjectType: 2
         guid: b715d543f4273d42bf658034cacb49fc
       - ElementName: Footsteps
         ObjectType: 2
         guid: 86a9582848642b49998e81222245f416
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Foley\Footsteps
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Chara\Footsteps
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -564,9 +564,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: e920ba719688244598cee676d5660d73
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
-    - name: Voix
+    - name: Voice
       guid: cab45a89fdcfd8498c25827e566429ab
-      id: 3370469991
+      id: 3170124113
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -577,10 +577,10 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Voix
+      - ElementName: Voice
         ObjectType: 2
         guid: cab45a89fdcfd8498c25827e566429ab
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Voix
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Voice
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -649,7 +649,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: be71342b7a418f48bd9884df7f5122d3
     GuidInternal: 
-    m_lastTime: -8585664321524507025
+    m_lastTime: -8585639225550186094
     List:
     - name: Ambient
       guid: a255ded15103744f8d6fb9be7f3f8b16

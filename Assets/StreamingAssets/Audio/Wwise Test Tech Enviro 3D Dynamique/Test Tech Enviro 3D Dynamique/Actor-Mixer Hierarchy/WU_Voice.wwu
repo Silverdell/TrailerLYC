@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F3B1F741-A32A-4636-A3DE-CFD05050AE89}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="VoiceActor" ID="{F3B1F741-A32A-4636-A3DE-CFD05050AE89}" PersistMode="Standalone">
+		<WorkUnit Name="WU_Voice" ID="{F3B1F741-A32A-4636-A3DE-CFD05050AE89}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="TestDiscussion" ID="{919C0521-3737-4A84-855B-17002DBC63D4}" ShortID="830007870">
 					<ChildrenList>
@@ -15,7 +15,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Voix" ID="{895AB4CA-CFFD-49D8-8C25-827E566429AB}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+									<ObjectRef Name="Voice" ID="{895AB4CA-CFFD-49D8-8C25-827E566429AB}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
