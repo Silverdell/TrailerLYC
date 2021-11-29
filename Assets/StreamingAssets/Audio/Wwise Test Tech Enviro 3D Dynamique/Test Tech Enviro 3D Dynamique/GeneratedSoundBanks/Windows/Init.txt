@@ -15,15 +15,25 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	914012847	OutsideSFX			\Default Work Unit\OutsideSFX	
-	973505180	StationSFX			\Default Work Unit\StationSFX	
-	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
-	1204742824	VoiceActor			\Default Work Unit\VoiceActor	
-	1499314831	MusicGlobal			\Default Work Unit\MusicGlobal	
+	234121670	Music_Extra_Diegetic			\Default Work Unit\Master Audio Bus\Music\Music_Extra_Diegetic	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	434268486	Chara			\Default Work Unit\Master Audio Bus\Chara	
+	763539388	Amb_Stat			\Default Work Unit\Master Audio Bus\Ambiances\Amb_Stat	
+	1367384683	Cloth			\Default Work Unit\Master Audio Bus\Chara\Cloth	
+	1404066300	Ambiances			\Default Work Unit\Master Audio Bus\Ambiances	
+	1580416451	Music_Diegetic			\Default Work Unit\Master Audio Bus\Music\Music_Diegetic	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Chara\Footsteps	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
+	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
+	3587306267	Amb_Dyn			\Default Work Unit\Master Audio Bus\Ambiances\Amb_Dyn	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2844224676	Reverb_Salle_de_Controle			\Default Work Unit\Master Audio Bus\Reverbs\Reverb_Salle_de_Controle	
+	3640954191	Reverb_Exterieur			\Default Work Unit\Master Audio Bus\Reverbs\Reverb_Exterieur	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
-	4230635974	Default_Motion_Device	Wwise Motion			
 

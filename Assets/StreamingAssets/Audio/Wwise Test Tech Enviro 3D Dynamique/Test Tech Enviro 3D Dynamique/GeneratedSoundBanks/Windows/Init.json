@@ -5,21 +5,35 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
-   "SourceFilesRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
+   "SourceFilesRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1653707435",
+    "Hash": "2712863228",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "2844224676",
+      "Name": "Reverb_Salle_de_Controle",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Reverb_Salle_de_Controle",
+      "GUID": "{7F6613D4-E4CD-40CF-8901-D2FF15E397FC}"
+     },
+     {
+      "Id": "3640954191",
+      "Name": "Reverb_Exterieur",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Reverb_Exterieur",
+      "GUID": "{F0943908-518E-4AC4-AB23-C35C9E94972B}"
+     }
+    ]
    }
   ]
  }

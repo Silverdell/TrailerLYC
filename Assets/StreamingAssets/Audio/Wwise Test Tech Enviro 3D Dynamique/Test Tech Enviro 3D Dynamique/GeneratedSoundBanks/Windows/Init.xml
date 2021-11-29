@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
-		<SourceFilesRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1653707435">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2712863228">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2844224676" Name="Reverb_Salle_de_Controle" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Reverb_Salle_de_Controle" GUID="{7F6613D4-E4CD-40CF-8901-D2FF15E397FC}"/>
+				<AuxBus Id="3640954191" Name="Reverb_Exterieur" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Reverb_Exterieur" GUID="{F0943908-518E-4AC4-AB23-C35C9E94972B}"/>
+			</IncludedAuxBusses>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

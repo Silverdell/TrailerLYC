@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
-		<SourceFilesRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="973505180" GUID="{21660354-8A43-4DC3-97DD-EF155B27BD93}" Language="SFX" Hash="2820044997">
+		<SoundBank Id="973505180" GUID="{21660354-8A43-4DC3-97DD-EF155B27BD93}" Language="SFX" Hash="2713804452">
 			<ObjectPath>\SoundBanks\Default Work Unit\StationSFX</ObjectPath>
 			<ShortName>StationSFX</ShortName>
 			<Path>StationSFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\StationSFX\DoorOpen" GUID="{6E5E46B8-09E6-4026-8137-9B1D2C46031D}" DurationType="OneShot" DurationMin="0.436836" DurationMax="0.490332">
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\StationSFX\DoorOpen" GUID="{6E5E46B8-09E6-4026-8137-9B1D2C46031D}" DurationType="OneShot" DurationMin="6.227167" DurationMax="8.205438">
 					<IncludedMemoryFiles>
-						<File Id="646043830" Language="SFX">
-							<ShortName>drawbridge_control-converted.wav</ShortName>
-							<Path>SFX\drawbridge_control-converted_FAE3D76A.wem</Path>
+						<File Id="33370558" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_03.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_03_10C4C929.wem</Path>
+						</File>
+						<File Id="446645591" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_02.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_02_10C4C929.wem</Path>
+						</File>
+						<File Id="655594244" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_05.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_05_10C4C929.wem</Path>
+						</File>
+						<File Id="705961097" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_04.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_04_10C4C929.wem</Path>
+						</File>
+						<File Id="731176909" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_01.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_01_10C4C929.wem</Path>
+						</File>
+						<File Id="739371184" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_06.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_06_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -39,7 +39,7 @@
 								<Action Name="" ID="{30FB7DA0-B8C9-4A60-8CE8-087E6D55EDDD}" ShortID="452398707">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Door" ID="{1D13C8C4-AC94-49F2-A060-30DC7BD88EB5}" WorkUnitID="{085FB373-7204-454B-9708-E6A0E777A275}"/>
+											<ObjectRef Name="Door" ID="{1D13C8C4-AC94-49F2-A060-30DC7BD88EB5}" WorkUnitID="{B40C35FB-9434-4C8C-84B3-78D7007786F0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

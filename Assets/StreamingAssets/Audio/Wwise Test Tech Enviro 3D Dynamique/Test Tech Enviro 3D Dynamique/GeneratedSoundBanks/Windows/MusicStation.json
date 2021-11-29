@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
-   "SourceFilesRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
+   "SourceFilesRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "2959414378",
     "GUID": "{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}",
     "Language": "SFX",
-    "Hash": "3808500400",
+    "Hash": "1600483902",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicStation",
     "ShortName": "MusicStation",
     "Path": "MusicStation.bnk",

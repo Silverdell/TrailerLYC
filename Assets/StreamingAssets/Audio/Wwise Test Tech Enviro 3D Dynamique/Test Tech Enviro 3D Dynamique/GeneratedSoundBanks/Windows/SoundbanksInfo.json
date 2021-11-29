@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
-   "SourceFilesRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
+   "SourceFilesRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -19,7 +19,7 @@
     "Id": "914012847",
     "GUID": "{B9B23ED5-137A-4573-AEEC-04517C9C2D25}",
     "Language": "SFX",
-    "Hash": "3792432652",
+    "Hash": "469858840",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\OutsideSFX",
     "ShortName": "OutsideSFX",
     "Path": "OutsideSFX.bnk",
@@ -58,21 +58,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Outside\\Play_Seagulls",
       "GUID": "{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}",
       "MaxAttenuation": "15.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "98982520",
-        "Language": "SFX",
-        "ShortName": "gulls_02-converted.wav",
-        "Path": "SFX\\gulls_02-converted_10C4C929.wem"
-       },
-       {
-        "Id": "520855207",
-        "Language": "SFX",
-        "ShortName": "gulls_01-converted.wav",
-        "Path": "SFX\\gulls_01-converted_10C4C929.wem"
-       }
-      ]
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "4196961906",
@@ -100,7 +88,7 @@
     "Id": "973505180",
     "GUID": "{21660354-8A43-4DC3-97DD-EF155B27BD93}",
     "Language": "SFX",
-    "Hash": "2820044997",
+    "Hash": "2713804452",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\StationSFX",
     "ShortName": "StationSFX",
     "Path": "StationSFX.bnk",
@@ -111,14 +99,44 @@
       "ObjectPath": "\\Events\\Default Work Unit\\StationSFX\\DoorOpen",
       "GUID": "{6E5E46B8-09E6-4026-8137-9B1D2C46031D}",
       "DurationType": "OneShot",
-      "DurationMin": "0.436836",
-      "DurationMax": "0.490332",
+      "DurationMin": "6.227167",
+      "DurationMax": "8.205438",
       "IncludedMemoryFiles": [
        {
-        "Id": "646043830",
+        "Id": "33370558",
         "Language": "SFX",
-        "ShortName": "drawbridge_control-converted.wav",
-        "Path": "SFX\\drawbridge_control-converted_FAE3D76A.wem"
+        "ShortName": "SFX\\SFX_Station_Door_03.wav",
+        "Path": "SFX\\SFX\\SFX_Station_Door_03_10C4C929.wem"
+       },
+       {
+        "Id": "446645591",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Station_Door_02.wav",
+        "Path": "SFX\\SFX\\SFX_Station_Door_02_10C4C929.wem"
+       },
+       {
+        "Id": "655594244",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Station_Door_05.wav",
+        "Path": "SFX\\SFX\\SFX_Station_Door_05_10C4C929.wem"
+       },
+       {
+        "Id": "705961097",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Station_Door_04.wav",
+        "Path": "SFX\\SFX\\SFX_Station_Door_04_10C4C929.wem"
+       },
+       {
+        "Id": "731176909",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Station_Door_01.wav",
+        "Path": "SFX\\SFX\\SFX_Station_Door_01_10C4C929.wem"
+       },
+       {
+        "Id": "739371184",
+        "Language": "SFX",
+        "ShortName": "SFX\\SFX_Station_Door_06.wav",
+        "Path": "SFX\\SFX\\SFX_Station_Door_06_10C4C929.wem"
        }
       ]
      },
@@ -154,16 +172,30 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1653707435",
+    "Hash": "2712863228",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "2844224676",
+      "Name": "Reverb_Salle_de_Controle",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Reverb_Salle_de_Controle",
+      "GUID": "{7F6613D4-E4CD-40CF-8901-D2FF15E397FC}"
+     },
+     {
+      "Id": "3640954191",
+      "Name": "Reverb_Exterieur",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Reverb_Exterieur",
+      "GUID": "{F0943908-518E-4AC4-AB23-C35C9E94972B}"
+     }
+    ]
    },
    {
     "Id": "2959414378",
     "GUID": "{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}",
     "Language": "SFX",
-    "Hash": "3808500400",
+    "Hash": "1600483902",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicStation",
     "ShortName": "MusicStation",
     "Path": "MusicStation.bnk",

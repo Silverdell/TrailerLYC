@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
-   "SourceFilesRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\",
+   "SourceFilesRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Git\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\moond\\Documents\\Unity Projets\\TrailerLYC\\Assets\\StreamingAssets\\Audio\\Wwise Test Tech Enviro 3D Dynamique\\Test Tech Enviro 3D Dynamique\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "914012847",
     "GUID": "{B9B23ED5-137A-4573-AEEC-04517C9C2D25}",
     "Language": "SFX",
-    "Hash": "3792432652",
+    "Hash": "469858840",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\OutsideSFX",
     "ShortName": "OutsideSFX",
     "Path": "OutsideSFX.bnk",
@@ -55,21 +55,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Outside\\Play_Seagulls",
       "GUID": "{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}",
       "MaxAttenuation": "15.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "98982520",
-        "Language": "SFX",
-        "ShortName": "gulls_02-converted.wav",
-        "Path": "SFX\\gulls_02-converted_10C4C929.wem"
-       },
-       {
-        "Id": "520855207",
-        "Language": "SFX",
-        "ShortName": "gulls_01-converted.wav",
-        "Path": "SFX\\gulls_01-converted_10C4C929.wem"
-       }
-      ]
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "4196961906",

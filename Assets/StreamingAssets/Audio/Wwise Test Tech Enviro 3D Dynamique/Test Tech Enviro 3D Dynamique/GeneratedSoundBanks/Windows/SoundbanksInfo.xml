@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
-		<SourceFilesRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="914012847" GUID="{B9B23ED5-137A-4573-AEEC-04517C9C2D25}" Language="SFX" Hash="3792432652">
+		<SoundBank Id="914012847" GUID="{B9B23ED5-137A-4573-AEEC-04517C9C2D25}" Language="SFX" Hash="469858840">
 			<ObjectPath>\SoundBanks\Default Work Unit\OutsideSFX</ObjectPath>
 			<ShortName>OutsideSFX</ShortName>
 			<Path>OutsideSFX.bnk</Path>
@@ -32,32 +32,41 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4281176146" Name="Play_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Play_Seagulls" GUID="{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}" MaxAttenuation="15.000000" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="98982520" Language="SFX">
-							<ShortName>gulls_02-converted.wav</ShortName>
-							<Path>SFX\gulls_02-converted_10C4C929.wem</Path>
-						</File>
-						<File Id="520855207" Language="SFX">
-							<ShortName>gulls_01-converted.wav</ShortName>
-							<Path>SFX\gulls_01-converted_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="4281176146" Name="Play_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Play_Seagulls" GUID="{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4196961906" Name="Stop_Ocean" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Stop_Ocean" GUID="{8FB92C4E-8CBB-4452-AAD1-9DDB5819C3C3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3590310348" Name="Stop_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Stop_Seagulls" GUID="{4CC044A8-1910-4F07-BBA1-F0D903748AF6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="973505180" GUID="{21660354-8A43-4DC3-97DD-EF155B27BD93}" Language="SFX" Hash="2820044997">
+		<SoundBank Id="973505180" GUID="{21660354-8A43-4DC3-97DD-EF155B27BD93}" Language="SFX" Hash="2713804452">
 			<ObjectPath>\SoundBanks\Default Work Unit\StationSFX</ObjectPath>
 			<ShortName>StationSFX</ShortName>
 			<Path>StationSFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\StationSFX\DoorOpen" GUID="{6E5E46B8-09E6-4026-8137-9B1D2C46031D}" DurationType="OneShot" DurationMin="0.436836" DurationMax="0.490332">
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\StationSFX\DoorOpen" GUID="{6E5E46B8-09E6-4026-8137-9B1D2C46031D}" DurationType="OneShot" DurationMin="6.227167" DurationMax="8.205438">
 					<IncludedMemoryFiles>
-						<File Id="646043830" Language="SFX">
-							<ShortName>drawbridge_control-converted.wav</ShortName>
-							<Path>SFX\drawbridge_control-converted_FAE3D76A.wem</Path>
+						<File Id="33370558" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_03.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_03_10C4C929.wem</Path>
+						</File>
+						<File Id="446645591" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_02.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_02_10C4C929.wem</Path>
+						</File>
+						<File Id="655594244" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_05.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_05_10C4C929.wem</Path>
+						</File>
+						<File Id="705961097" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_04.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_04_10C4C929.wem</Path>
+						</File>
+						<File Id="731176909" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_01.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_01_10C4C929.wem</Path>
+						</File>
+						<File Id="739371184" Language="SFX">
+							<ShortName>SFX\SFX_Station_Door_06.wav</ShortName>
+							<Path>SFX\SFX\SFX_Station_Door_06_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -72,12 +81,16 @@
 				<Event Id="151474297" Name="Stop_Radio" ObjectPath="\Events\Default Work Unit\StationSFX\Stop_Radio" GUID="{EE3764A4-3971-488A-BF47-168585D0DAC7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1653707435">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2712863228">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2844224676" Name="Reverb_Salle_de_Controle" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Reverb_Salle_de_Controle" GUID="{7F6613D4-E4CD-40CF-8901-D2FF15E397FC}"/>
+				<AuxBus Id="3640954191" Name="Reverb_Exterieur" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Reverb_Exterieur" GUID="{F0943908-518E-4AC4-AB23-C35C9E94972B}"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2959414378" GUID="{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}" Language="SFX" Hash="3808500400">
+		<SoundBank Id="2959414378" GUID="{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}" Language="SFX" Hash="1600483902">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicStation</ObjectPath>
 			<ShortName>MusicStation</ShortName>
 			<Path>MusicStation.bnk</Path>

@@ -9,6 +9,11 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Seagulls" ID="{9F76B64D-D45D-41AF-A1EB-2F2C60FD5608}" ShortID="297515494">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -33,6 +38,7 @@
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -47,6 +53,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="gulls_01-converted" ID="{5003B802-9A6F-4665-869F-F217928225CE}" ShortID="516296867">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
@@ -70,6 +83,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="gulls_02-converted" ID="{9C424CD1-275A-42F9-9F76-9A273CB2170A}" ShortID="734946078">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
@@ -93,6 +113,9 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{35F2E7DB-FBFB-41B1-BC87-3C93D3E50244}"/>
+									</PositioningInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Ocean" ID="{94FFE5E2-E051-4B50-B494-006370A5003F}" ShortID="965243268">
@@ -115,6 +138,7 @@
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
@@ -203,6 +227,9 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{B0771F64-AA2C-4B6D-B3E9-0C5966372B68}"/>
+									</PositioningInfo>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -261,73 +288,6 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Station" ID="{3FDB1E4A-F1B7-4F5E-9A9A-71493A1E6E2F}" ShortID="1022175811">
-					<ChildrenList>
-						<RandomSequenceContainer Name="Door" ID="{1D13C8C4-AC94-49F2-A060-30DC7BD88EB5}" ShortID="286801908">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-14</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Amb_Dyn" ID="{D181C203-9A6F-4B84-8ABA-1A0700BC2E7E}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="drawbridge_control-converted" ID="{04F77F28-0BB1-4CE6-8C9A-0B48A2710367}" ShortID="571590949">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{C27D4682-811A-4A23-A0B3-B1C007018A60}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="drawbridge_control-converted" ID="{27B22741-DC46-451C-8364-842EB0E3367E}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0405174317980377"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>drawbridge_control-converted.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="646043830"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="drawbridge_control-converted" ID="{27B22741-DC46-451C-8364-842EB0E3367E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

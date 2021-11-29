@@ -50,13 +50,26 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMB_DYN = 3587306267U;
+        static const AkUniqueID AMB_STAT = 763539388U;
+        static const AkUniqueID AMBIANCES = 1404066300U;
+        static const AkUniqueID CHARA = 434268486U;
+        static const AkUniqueID CLOTH = 1367384683U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
-        static const AkUniqueID MUSICGLOBAL = 1499314831U;
-        static const AkUniqueID OUTSIDESFX = 914012847U;
-        static const AkUniqueID STATIONSFX = 973505180U;
-        static const AkUniqueID VOICEACTOR = 1204742824U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID MUSIC_DIEGETIC = 1580416451U;
+        static const AkUniqueID MUSIC_EXTRA_DIEGETIC = 234121670U;
+        static const AkUniqueID REVERBS = 3545700988U;
+        static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID VOICE = 3170124113U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB_EXTERIEUR = 3640954191U;
+        static const AkUniqueID REVERB_SALLE_DE_CONTROLE = 2844224676U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

@@ -1,6 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B40C35FB-9434-4C8C-84B3-78D7007786F0}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="WU_SFX" ID="{B40C35FB-9434-4C8C-84B3-78D7007786F0}" PersistMode="Standalone"/>
+		<WorkUnit Name="WU_SFX" ID="{B40C35FB-9434-4C8C-84B3-78D7007786F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Station" ID="{3FDB1E4A-F1B7-4F5E-9A9A-71493A1E6E2F}" ShortID="1022175811">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Door" ID="{1D13C8C4-AC94-49F2-A060-30DC7BD88EB5}" ShortID="286801908">
+							<PropertyList>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{71BA20E9-8896-4524-98CE-E676D5660D73}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Station_Door_01" ID="{9C50C655-7B55-4B38-BABE-869462F351E8}" ShortID="289226276">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Station_Door_01" ID="{F534F3E8-F901-4C53-9A92-B874F70F857B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_Station_Door_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="731176909"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Station_Door_01" ID="{F534F3E8-F901-4C53-9A92-B874F70F857B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Station_Door_02" ID="{BF354A02-4796-472D-BDE5-C046F8999DA7}" ShortID="448769714">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Station_Door_02" ID="{B4E8340C-6105-4787-8A68-749866D52976}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_Station_Door_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446645591"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Station_Door_02" ID="{B4E8340C-6105-4787-8A68-749866D52976}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Station_Door_03" ID="{6B9CDE99-6BE7-4723-9ED4-CBDF7490AB3D}" ShortID="1015643044">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Station_Door_03" ID="{92A4E366-DDB4-4CC5-82C8-CBCA4BF7D5C9}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_Station_Door_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="33370558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Station_Door_03" ID="{92A4E366-DDB4-4CC5-82C8-CBCA4BF7D5C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Station_Door_04" ID="{46DAA759-8CA5-40A1-B690-15FCE9D73D34}" ShortID="1007550209">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Station_Door_04" ID="{4DF319F9-2240-4BD0-B3E3-A51B0B6AD367}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_Station_Door_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705961097"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Station_Door_04" ID="{4DF319F9-2240-4BD0-B3E3-A51B0B6AD367}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Station_Door_05" ID="{98FD613A-1D19-414A-8BCF-4A922B1E9DE3}" ShortID="761230614">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Station_Door_05" ID="{4CA3E8DC-D9C9-4B57-BCF2-655001E5CAE6}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_Station_Door_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655594244"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Station_Door_05" ID="{4CA3E8DC-D9C9-4B57-BCF2-655001E5CAE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Station_Door_06" ID="{3B9B5FEC-6C41-43B1-A163-3A992F591D27}" ShortID="727095801">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEBD58B9-B5FC-4AD8-BA47-C304599F901F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Station_Door_06" ID="{0FBEA3A4-4D5B-4946-99CA-3BFC0003FC8D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\SFX_Station_Door_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739371184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Station_Door_06" ID="{0FBEA3A4-4D5B-4946-99CA-3BFC0003FC8D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{0D21FB80-1192-42D8-B9CB-029E9E0D6E6A}"/>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

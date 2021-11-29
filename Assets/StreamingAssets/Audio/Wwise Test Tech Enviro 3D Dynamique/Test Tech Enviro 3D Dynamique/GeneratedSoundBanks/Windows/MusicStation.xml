@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
-		<SourceFilesRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Git\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2959414378" GUID="{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}" Language="SFX" Hash="3808500400">
+		<SoundBank Id="2959414378" GUID="{AD169E0D-52AB-49BD-8BE9-A4D3A9664599}" Language="SFX" Hash="1600483902">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicStation</ObjectPath>
 			<ShortName>MusicStation</ShortName>
 			<Path>MusicStation.bnk</Path>

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 77931584f44f5f458d3d3599737ca4f1
     GuidInternal: 
-    m_lastTime: -8585664321502107675
+    m_lastTime: -8585638126582826699
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585664321502092793
+    m_lastTime: -8585638126582816776
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: b958bdfefcb5d84aba47c304599f901f
     GuidInternal: 
-    m_lastTime: -8585639224232837285
+    m_lastTime: -8585634135912813354
     List:
     - name: Amb_Dyn
       guid: 03c281d16f9a844b8aba1a0700bc2e7e
@@ -593,7 +593,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6c2e2b626821dd40b6b9f0e993825c36
     GuidInternal: 
-    m_lastTime: -8585664321502281263
+    m_lastTime: -8585638126582940776
     List:
     - name: MusicStation
       guid: 0d9e16adab52bd498be9a4d3a9664599
@@ -649,7 +649,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: be71342b7a418f48bd9884df7f5122d3
     GuidInternal: 
-    m_lastTime: -8585639225550186094
+    m_lastTime: -8585634135912679440
     List:
     - name: Ambient
       guid: a255ded15103744f8d6fb9be7f3f8b16
@@ -686,8 +686,8 @@ MonoBehaviour:
         guid: b8465e6ee609264081379b1d2c46031d
       Path: Events\Default Work Unit\StationSFX\DoorOpen
       maxAttenuation: 0
-      maxDuration: 0.490332
-      minDuration: 0.436836
+      maxDuration: 8.205438
+      minDuration: 6.227167
     - name: MusicGlobal
       guid: eb60ba625714e4478a2932cb848b2c98
       id: 1499314831
@@ -809,8 +809,8 @@ MonoBehaviour:
         guid: a804d57d0deb0d4eb6b90fd49271741a
       Path: Events\Default Work Unit\Ambient\Outside\Play_Seagulls
       maxAttenuation: 15
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: StationSFX
       guid: aa727282f829f9438833a520fc519107
       id: 973505180
@@ -926,7 +926,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4b13d1b14ed874498e7a6b06dd060d7b
     GuidInternal: 
-    m_lastTime: -8585664321524472318
+    m_lastTime: -8585638126600712224
     List: []
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
@@ -939,7 +939,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585664321524452469
+    m_lastTime: -8585638126600702548
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -980,7 +980,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585664321524437593
+    m_lastTime: -8585638126600692376
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -1134,7 +1134,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b278d15101708842bb0eab8c7100f1b8
     GuidInternal: 
-    m_lastTime: -8585664321502236632
+    m_lastTime: -8585638126582911015
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1148,7 +1148,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: bcc008bae6e4d841aca61549b1a15dd4
     GuidInternal: 
-    m_lastTime: -8585664321502206872
+    m_lastTime: -8585638126582896144
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1162,11 +1162,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 1cd61312cb883c4fbc0f82c5e9fc11e6
     GuidInternal: 
-    m_lastTime: -8585664321502122553
+    m_lastTime: -8585638126582841583
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 0300000016000000
+  ExpandedWaapiItemIds: 0300000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

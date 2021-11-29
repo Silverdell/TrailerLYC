@@ -22,6 +22,13 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Ambiances" ID="{7213D578-D217-4FE3-9CAF-4F692F97E50B}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>528</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Amb_Dyn" ID="{D181C203-9A6F-4B84-8ABA-1A0700BC2E7E}">
 									<PropertyList>
@@ -47,6 +54,13 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="SFX" ID="{71BA20E9-8896-4524-98CE-E676D5660D73}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>528</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Chara" ID="{43D515B7-27F4-423D-BF65-8034CACB49FC}">
