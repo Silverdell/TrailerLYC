@@ -19,7 +19,7 @@
     "Id": "914012847",
     "GUID": "{B9B23ED5-137A-4573-AEEC-04517C9C2D25}",
     "Language": "SFX",
-    "Hash": "469858840",
+    "Hash": "4064646146",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\OutsideSFX",
     "ShortName": "OutsideSFX",
     "Path": "OutsideSFX.bnk",
@@ -58,9 +58,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Outside\\Play_Seagulls",
       "GUID": "{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}",
       "MaxAttenuation": "15.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationType": "Infinite"
      },
      {
       "Id": "4196961906",

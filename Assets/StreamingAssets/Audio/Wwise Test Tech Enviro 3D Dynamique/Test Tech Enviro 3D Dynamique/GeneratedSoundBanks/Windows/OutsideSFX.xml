@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\moond\Documents\Unity Projets\TrailerLYC\Assets\StreamingAssets\Audio\Wwise Test Tech Enviro 3D Dynamique\Test Tech Enviro 3D Dynamique\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="914012847" GUID="{B9B23ED5-137A-4573-AEEC-04517C9C2D25}" Language="SFX" Hash="469858840">
+		<SoundBank Id="914012847" GUID="{B9B23ED5-137A-4573-AEEC-04517C9C2D25}" Language="SFX" Hash="4064646146">
 			<ObjectPath>\SoundBanks\Default Work Unit\OutsideSFX</ObjectPath>
 			<ShortName>OutsideSFX</ShortName>
 			<Path>OutsideSFX.bnk</Path>
@@ -29,7 +29,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4281176146" Name="Play_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Play_Seagulls" GUID="{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4281176146" Name="Play_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Play_Seagulls" GUID="{7DD504A8-EB0D-4E0D-B6B9-0FD49271741A}" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="4196961906" Name="Stop_Ocean" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Stop_Ocean" GUID="{8FB92C4E-8CBB-4452-AAD1-9DDB5819C3C3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3590310348" Name="Stop_Seagulls" ObjectPath="\Events\Default Work Unit\Ambient\Outside\Stop_Seagulls" GUID="{4CC044A8-1910-4F07-BBA1-F0D903748AF6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>

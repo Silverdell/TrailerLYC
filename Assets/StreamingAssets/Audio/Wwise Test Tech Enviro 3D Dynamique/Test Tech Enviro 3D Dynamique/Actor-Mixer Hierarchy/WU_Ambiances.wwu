@@ -9,11 +9,6 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Seagulls" ID="{9F76B64D-D45D-41AF-A1EB-2F2C60FD5608}" ShortID="297515494">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -53,13 +48,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="gulls_01-converted" ID="{5003B802-9A6F-4665-869F-F217928225CE}" ShortID="516296867">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
@@ -83,13 +71,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="gulls_02-converted" ID="{9C424CD1-275A-42F9-9F76-9A273CB2170A}" ShortID="734946078">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
@@ -158,13 +139,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="ocean_short1-converted" ID="{B293EE8C-4361-49D8-BD4C-C1BC896E670E}" ShortID="323813061">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
@@ -188,13 +162,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="ocean_short2-converted" ID="{D852BA9B-D0C9-4233-ADE8-17E1DD0F9CEB}" ShortID="328289852">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
@@ -218,13 +185,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="ocean_short3-converted" ID="{8B13463A-394F-47D1-B38A-3B8185D663F9}" ShortID="143420680">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06DC4D23-8B09-4AE6-986C-027573721C62}"/>
